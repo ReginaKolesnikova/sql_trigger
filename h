@@ -98,3 +98,19 @@ SELECT * FROM linnad;
 SELECT * FROM logi;
 
 
+
+
+-----
+
+
+  SELECT
+    name,
+	is_instead_of_trigger
+FROM
+    sys.triggers
+WHERE
+  type = 'TR';
+
+  SELECT * FROM sys.triggers;
+
+
